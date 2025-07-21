@@ -78,11 +78,11 @@ in
     majorVersion = "2";
   };
 
-  # wal-g v3.0.5
+  # wal-g v3.0.7 - Updated from v3.0.5 to include IRSA support fixes
   wal-g-3 = walGCommon {
-    version = "3.0.5";
-    sha256 = "sha256-wVr0L2ZXMuEo6tc2ajNzPinVQ8ZVzNOSoaHZ4oFsA+U=";
-    vendorHash = "sha256-YDLAmRfDl9TgbabXj/1rxVQ052NZDg3IagXVTe5i9dw=";
+    version = "3.0.7";
+    sha256 = "sha256-kUn1pJEdGec+WIZivqVAhELoBTKOF4E07Ovn795DgIY=";
+    vendorHash = "sha256-TwYl3B/VS24clUv1ge/RroULIY/04xTxc11qPNGhnfs=";
     majorVersion = "3";
   };
 }
